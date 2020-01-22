@@ -1,0 +1,43 @@
+.languages {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  /*background: lighten($color-bg-page, 5%);
+  padding: 10px 5px;
+  border-radius: 10px;*/
+
+  a {
+    display: flex;
+    justify-content: center;
+    background: lighten($color-bg-page, 5%);
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    transition: $global-transition;
+    animation-delay: 1s;
+
+
+
+    img {
+      margin-right: 10px;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:hover {
+      background: lighten($color-bg-page, 15%);
+      transition: $global-transition;
+    }
+
+    &:nth-child(2) {
+      margin-top: 15px;
+      animation-delay: 1300ms;
+    }
+  }
+}
+
+.language_disabled {
+  background: $color-bg-page !important;
+  cursor: inherit;
+}

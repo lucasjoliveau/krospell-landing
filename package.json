@@ -1,5 +1,5 @@
 {
-  "name": "Base model",
+  "name": "base-model",
   "version": "1.0.0",
   "description": "Base model for any website",
   "main": "index.html",

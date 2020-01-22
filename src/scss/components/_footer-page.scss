@@ -1,0 +1,16 @@
+footer {
+  background: darken($color-bg-page, 5%);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  p {
+    font-size: rem(12);
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,59 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo-bloc {
+  margin: 72px 0;
+}
+
+
+.periskio-logo {
+  width: 200px;
+  animation-delay: 1000ms;
+}
+
+h1 {
+  letter-spacing: 0.34em;
+  text-align: center;
+  font-size: rem(40);
+  margin: 0;
+}
+
+h3 {
+  color: $accent-color;
+  font-weight: 600;
+  font-size: rem(18);
+  letter-spacing: 0.675em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 28px;
+  margin: 0;
+}
+
+.btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: $accent-color;
+  display: block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: $global-transition;
+  margin: 30px 0;
+  animation-delay: 1200ms;
+
+  &:hover {
+    background: #cd494f;
+    transition: $global-transition;
+  }
+}
+
+@media screen and (min-width: $vw-small) {
+  h1 {
+    font-size: 67px;
+  }
+}

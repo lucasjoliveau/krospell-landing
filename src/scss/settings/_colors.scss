@@ -13,9 +13,10 @@ $black:    #000;
 
 
 // Project
-$color-text-normal: $gray-800;
+$color-text-normal: #fafafa;
+$accent-color: #E35159;
 
-$color-bg-page: $white;
+$color-bg-page: #242B30;
 
 $color-bg-light: $gray-100;
 $color-bg-dark: $gray-800;
@@ -23,10 +24,10 @@ $color-bg-dark: $gray-800;
 $color-title-light: $gray-100;
 $color-title-dark: $gray-800;
 
-$color-link: $gray-900;
+$color-link: $color-text-normal;
 $color-link-visited: $color-link;
-$color-link-hover: lighten($color-link, 35%);
-$color-link-active: lighten($color-link, 15%);
+$color-link-hover: $color-text-normal;
+$color-link-active: $color-text-normal;
 $color-link-focus: $color-link;
 
 
